@@ -1,0 +1,6 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "livePreview.defaultPreviewPath": "c:\\Users\\Christian\\Documents\\Business\\Proctorme\\Software\\MVP 0.1\\proctorme-server-master\\public\\examDetails.html"
+}
