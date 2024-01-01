@@ -56,7 +56,7 @@ app.use(cors());
 app.use(
   fileUpload({
     useTempFiles: true,
-    tempFileDir: path.join(__dirname, "temp"),
+    tempFileDir: path.join(__dirname, "tmp"),
   })
 );
 
