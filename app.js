@@ -8,6 +8,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const fileUpload = require("express-fileupload");
+const fs = require('fs')
 
 // Files
 const config = require("./config/config");
@@ -56,7 +57,7 @@ app.use(cors());
 app.use(
   fileUpload({
     useTempFiles: true,
-    tempFileDir: path.join(__dirname, "tmp"),
+    tempFileDir: path.join(__dirname, "uploads/tmp"),
   })
 );
 
